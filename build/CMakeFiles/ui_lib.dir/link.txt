@@ -1,0 +1,2 @@
+/usr/bin/ar qc libui_lib.a CMakeFiles/ui_lib.dir/ui/ColorTheme.cpp.o CMakeFiles/ui_lib.dir/ui/UIManager.cpp.o
+/usr/bin/ranlib libui_lib.a

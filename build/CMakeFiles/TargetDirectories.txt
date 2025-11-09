@@ -1,0 +1,9 @@
+/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/build/CMakeFiles/log.dir
+/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/build/CMakeFiles/ui_lib.dir
+/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/build/CMakeFiles/utils_lib.dir
+/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/build/CMakeFiles/edit_cache.dir
+/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/build/CMakeFiles/rebuild_cache.dir
+/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/build/CMakeFiles/list_install_components.dir
+/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/build/CMakeFiles/install.dir
+/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/build/CMakeFiles/install/local.dir
+/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/build/CMakeFiles/install/strip.dir
