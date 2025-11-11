@@ -305,6 +305,33 @@ utils/AlertManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils_lib.dir/build.make CMakeFiles/utils_lib.dir/utils/AlertManager.cpp.s
 .PHONY : utils/AlertManager.cpp.s
 
+utils/Countdown.o: utils/Countdown.cpp.o
+.PHONY : utils/Countdown.o
+
+# target to build an object file
+utils/Countdown.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/utils/Countdown.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils_lib.dir/build.make CMakeFiles/utils_lib.dir/utils/Countdown.cpp.o
+.PHONY : utils/Countdown.cpp.o
+
+utils/Countdown.i: utils/Countdown.cpp.i
+.PHONY : utils/Countdown.i
+
+# target to preprocess a source file
+utils/Countdown.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/utils/Countdown.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils_lib.dir/build.make CMakeFiles/utils_lib.dir/utils/Countdown.cpp.i
+.PHONY : utils/Countdown.cpp.i
+
+utils/Countdown.s: utils/Countdown.cpp.s
+.PHONY : utils/Countdown.s
+
+# target to generate assembly for a file
+utils/Countdown.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/log.dir/build.make CMakeFiles/log.dir/utils/Countdown.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils_lib.dir/build.make CMakeFiles/utils_lib.dir/utils/Countdown.cpp.s
+.PHONY : utils/Countdown.cpp.s
+
 utils/FileManager.o: utils/FileManager.cpp.o
 .PHONY : utils/FileManager.o
 
@@ -467,6 +494,9 @@ help:
 	@echo "... utils/AlertManager.o"
 	@echo "... utils/AlertManager.i"
 	@echo "... utils/AlertManager.s"
+	@echo "... utils/Countdown.o"
+	@echo "... utils/Countdown.i"
+	@echo "... utils/Countdown.s"
 	@echo "... utils/FileManager.o"
 	@echo "... utils/FileManager.i"
 	@echo "... utils/FileManager.s"

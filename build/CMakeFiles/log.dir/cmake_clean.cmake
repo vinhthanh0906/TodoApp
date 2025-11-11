@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/log.dir/ui/UIManager.cpp.o.d"
   "CMakeFiles/log.dir/utils/AlertManager.cpp.o"
   "CMakeFiles/log.dir/utils/AlertManager.cpp.o.d"
+  "CMakeFiles/log.dir/utils/Countdown.cpp.o"
+  "CMakeFiles/log.dir/utils/Countdown.cpp.o.d"
   "CMakeFiles/log.dir/utils/FileManager.cpp.o"
   "CMakeFiles/log.dir/utils/FileManager.cpp.o.d"
   "CMakeFiles/log.dir/utils/Task.cpp.o"

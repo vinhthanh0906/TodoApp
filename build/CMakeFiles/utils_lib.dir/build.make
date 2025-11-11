@@ -156,6 +156,20 @@ CMakeFiles/utils_lib.dir/utils/TodoApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/utils_lib.dir/utils/TodoApp.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/utils/TodoApp.cpp -o CMakeFiles/utils_lib.dir/utils/TodoApp.cpp.s
 
+CMakeFiles/utils_lib.dir/utils/Countdown.cpp.o: CMakeFiles/utils_lib.dir/flags.make
+CMakeFiles/utils_lib.dir/utils/Countdown.cpp.o: /Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/utils/Countdown.cpp
+CMakeFiles/utils_lib.dir/utils/Countdown.cpp.o: CMakeFiles/utils_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/utils_lib.dir/utils/Countdown.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/utils_lib.dir/utils/Countdown.cpp.o -MF CMakeFiles/utils_lib.dir/utils/Countdown.cpp.o.d -o CMakeFiles/utils_lib.dir/utils/Countdown.cpp.o -c /Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/utils/Countdown.cpp
+
+CMakeFiles/utils_lib.dir/utils/Countdown.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/utils_lib.dir/utils/Countdown.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/utils/Countdown.cpp > CMakeFiles/utils_lib.dir/utils/Countdown.cpp.i
+
+CMakeFiles/utils_lib.dir/utils/Countdown.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/utils_lib.dir/utils/Countdown.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/utils/Countdown.cpp -o CMakeFiles/utils_lib.dir/utils/Countdown.cpp.s
+
 # Object files for target utils_lib
 utils_lib_OBJECTS = \
 "CMakeFiles/utils_lib.dir/utils/Task.cpp.o" \
@@ -163,7 +177,8 @@ utils_lib_OBJECTS = \
 "CMakeFiles/utils_lib.dir/utils/FileManager.cpp.o" \
 "CMakeFiles/utils_lib.dir/utils/AlertManager.cpp.o" \
 "CMakeFiles/utils_lib.dir/utils/TaskManager.cpp.o" \
-"CMakeFiles/utils_lib.dir/utils/TodoApp.cpp.o"
+"CMakeFiles/utils_lib.dir/utils/TodoApp.cpp.o" \
+"CMakeFiles/utils_lib.dir/utils/Countdown.cpp.o"
 
 # External object files for target utils_lib
 utils_lib_EXTERNAL_OBJECTS =
@@ -174,9 +189,10 @@ libutils_lib.a: CMakeFiles/utils_lib.dir/utils/FileManager.cpp.o
 libutils_lib.a: CMakeFiles/utils_lib.dir/utils/AlertManager.cpp.o
 libutils_lib.a: CMakeFiles/utils_lib.dir/utils/TaskManager.cpp.o
 libutils_lib.a: CMakeFiles/utils_lib.dir/utils/TodoApp.cpp.o
+libutils_lib.a: CMakeFiles/utils_lib.dir/utils/Countdown.cpp.o
 libutils_lib.a: CMakeFiles/utils_lib.dir/build.make
 libutils_lib.a: CMakeFiles/utils_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libutils_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libutils_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/utils_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/utils_lib.dir/link.txt --verbose=$(VERBOSE)
 

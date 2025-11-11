@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/ui/ColorTheme.cpp" "CMakeFiles/log.dir/ui/ColorTheme.cpp.o" "gcc" "CMakeFiles/log.dir/ui/ColorTheme.cpp.o.d"
   "/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/ui/UIManager.cpp" "CMakeFiles/log.dir/ui/UIManager.cpp.o" "gcc" "CMakeFiles/log.dir/ui/UIManager.cpp.o.d"
   "/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/utils/AlertManager.cpp" "CMakeFiles/log.dir/utils/AlertManager.cpp.o" "gcc" "CMakeFiles/log.dir/utils/AlertManager.cpp.o.d"
+  "/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/utils/Countdown.cpp" "CMakeFiles/log.dir/utils/Countdown.cpp.o" "gcc" "CMakeFiles/log.dir/utils/Countdown.cpp.o.d"
   "/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/utils/FileManager.cpp" "CMakeFiles/log.dir/utils/FileManager.cpp.o" "gcc" "CMakeFiles/log.dir/utils/FileManager.cpp.o.d"
   "/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/utils/Task.cpp" "CMakeFiles/log.dir/utils/Task.cpp.o" "gcc" "CMakeFiles/log.dir/utils/Task.cpp.o.d"
   "/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/utils/TaskManager.cpp" "CMakeFiles/log.dir/utils/TaskManager.cpp.o" "gcc" "CMakeFiles/log.dir/utils/TaskManager.cpp.o.d"

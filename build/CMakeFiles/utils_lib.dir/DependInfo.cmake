@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/utils/AlertManager.cpp" "CMakeFiles/utils_lib.dir/utils/AlertManager.cpp.o" "gcc" "CMakeFiles/utils_lib.dir/utils/AlertManager.cpp.o.d"
+  "/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/utils/Countdown.cpp" "CMakeFiles/utils_lib.dir/utils/Countdown.cpp.o" "gcc" "CMakeFiles/utils_lib.dir/utils/Countdown.cpp.o.d"
   "/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/utils/FileManager.cpp" "CMakeFiles/utils_lib.dir/utils/FileManager.cpp.o" "gcc" "CMakeFiles/utils_lib.dir/utils/FileManager.cpp.o.d"
   "/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/utils/Task.cpp" "CMakeFiles/utils_lib.dir/utils/Task.cpp.o" "gcc" "CMakeFiles/utils_lib.dir/utils/Task.cpp.o.d"
   "/Users/nguyenthanhvinh/Documents/C++/Project/TodoApp/utils/TaskManager.cpp" "CMakeFiles/utils_lib.dir/utils/TaskManager.cpp.o" "gcc" "CMakeFiles/utils_lib.dir/utils/TaskManager.cpp.o.d"

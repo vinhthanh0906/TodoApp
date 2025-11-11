@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/utils_lib.dir/utils/AlertManager.cpp.o"
   "CMakeFiles/utils_lib.dir/utils/AlertManager.cpp.o.d"
+  "CMakeFiles/utils_lib.dir/utils/Countdown.cpp.o"
+  "CMakeFiles/utils_lib.dir/utils/Countdown.cpp.o.d"
   "CMakeFiles/utils_lib.dir/utils/FileManager.cpp.o"
   "CMakeFiles/utils_lib.dir/utils/FileManager.cpp.o.d"
   "CMakeFiles/utils_lib.dir/utils/Task.cpp.o"
