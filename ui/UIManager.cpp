@@ -6,6 +6,8 @@
 #include <algorithm>
 #include <thread>
 #include <chrono>
+#include "utils/Countdown.h"
+
 
 using namespace std;
 
@@ -47,29 +49,37 @@ void UIManager::displayTasks(const vector<Task>& tasks, bool detailed) {
         return;
     }
     
-    cout << ColorTheme::BOLD << "╔════╦════════════════════════════════╦═════════════════════╦════════════╦════════════╦═══════════╗" << ColorTheme::RESET << endl;
-    cout << ColorTheme::BOLD << "║ ID ║ TITLE                          ║ SCHEDULED TIME      ║ CATEGORY   ║ PRIORITY   ║ STATUS    ║" << ColorTheme::RESET << endl;
-    cout << ColorTheme::BOLD << "╠════╬════════════════════════════════╬═════════════════════╬════════════╬════════════╬═══════════╣" << ColorTheme::RESET << endl;
+    cout << ColorTheme::BOLD << "╔════╦════════════════════════════════╦═════════════════════╦════════════╦════════════╦═══════════╦═══════════════════════════╗" << ColorTheme::RESET << endl;
+    cout << ColorTheme::BOLD << "║ ID ║ TITLE                          ║ SCHEDULED TIME      ║ CATEGORY   ║ PRIORITY   ║ STATUS    ║ Counter                   ║" << ColorTheme::RESET << endl;
+    cout << ColorTheme::BOLD << "╠════╬════════════════════════════════╬═════════════════════╬════════════╬════════════╬═══════════╣═══════════════════════════╣" << ColorTheme::RESET << endl;
     
     for (const auto& task : tasks) {
         string status = task.getIsCompleted() ? ColorTheme::GREEN + "✓ Done   " + ColorTheme::RESET : ColorTheme::YELLOW + "  Todo   " + ColorTheme::RESET;
         string categoryColor = ColorTheme::getCategoryColor(task.getCategory());
         
+        //For countdowntime 
+        
+
+
+        
         cout << "║ " << setw(2) << task.getId() << " ║ ";
         cout << setw(30) << left << task.getTitle().substr(0, 30) << " ║ ";
         cout << TimeUtility::timeToString(task.getScheduledTime()) << "    ║ ";
-        cout << categoryColor << setw(10) << task.getCategory().substr(0, 10) << ColorTheme::RESET << " ║ ";
-        cout << setw(8) << ColorTheme::getPriorityString(task.getPriority()) << "     ║";
-        cout << setw(6) << status << "  ║" << endl;
+        cout << categoryColor << setw(10) << task.getCategory().substr(0, 10) << ColorTheme::RESET << " ║";
+        cout << setw(8) << ColorTheme::getPriorityString(task.getPriority()) << "      ║";
+        cout << setw(6) << status << "  ║ " ;
+        cout << setw(10) << Countdown::getRemainingTime(task.getScheduledTime()) << "                ║ " << endl;
+;
+
         
         if (!task.getDescription().empty()) {
             cout << "║    ║ " << ColorTheme::CYAN << task.getDescription().substr(0, 65) << ColorTheme::RESET;
             cout << string(max(0, 65 - (int)task.getDescription().length()), ' ') << " ║" << endl;
         }
         
-                        cout << "╠════╬════════════════════════════════╬═════════════════════╬════════════╬════════════╬═══════════╣" << endl;
-    }
-    cout << ColorTheme::BOLD << "╚════╩════════════════════════════════╩═════════════════════╩════════════╩════════════╩═══════════╝" << ColorTheme::RESET << endl;
+                        cout << "╠════╬════════════════════════════════╬═════════════════════╬════════════╬════════════╬═══════════╬═══════════════════════════╣" << endl;
+    }                                                                                                                                                          
+    cout << ColorTheme::BOLD << "╚════╩════════════════════════════════╩═════════════════════╩════════════╩════════════╩═══════════╩═══════════════════════════╝" << ColorTheme::RESET << endl;
     cout << endl;
 }
 

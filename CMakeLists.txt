@@ -28,6 +28,7 @@ set(UTILS_SOURCES
     utils/AlertManager.cpp
     utils/TaskManager.cpp
     utils/TodoApp.cpp
+    utils/Countdown.cpp
 )
 
 # Main application source

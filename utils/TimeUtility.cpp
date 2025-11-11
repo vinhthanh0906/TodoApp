@@ -25,3 +25,11 @@ time_t TimeUtility::stringToTime(const std::string& dateStr) {
 double TimeUtility::getTimeDifference(time_t future, time_t past) {
     return difftime(future, past);
 }
+
+
+/* Countdown pseudo code 
+- Take a current time asd
+
+
+
+*/
